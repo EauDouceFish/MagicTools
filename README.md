@@ -1,5 +1,5 @@
 # 这个东西是什么 What  
-- 这些是一系列好用的Python工具，满足了开发中的简单需求。  
+- 这些是一系列好用的工具，通常为Python/.bat文件，满足了开发中的简单需求。  
 - These are a series of useful Python tools that meet simple needs during development.
 
 # 目前有的工具  
@@ -12,3 +12,7 @@
 ## ip.py + ip.bat  
 - 配合bat文件调用，以让命令行输入如(ip 8.8.8.8)以获取目标ip的基础信息  
 - Use with a .bat file so you can run commands like `ip 8.8.8.8` in terminal to get basic IP info.
+
+## deploy.bat
+- Hexo框架下配套的简单批处理脚本，用于一键推送博客、查看博客状态
+- Use .bat script to simplify deploying the blog and running the website within the Hexo frame.
