@@ -18,3 +18,10 @@
 ## deploy.bat
 - Hexo框架下配套的简单批处理脚本，用于一键推送博客、查看博客状态
 - Use .bat script to simplify deploying the blog and running the website within the Hexo frame.
+
+## Yuque2Hexo + yq2hexo.bat
+- 一键替换当前目录下，下载从语雀导出的md文章的图片，重命名并按照路径存放在Blog/source/img/categoryName/mdFileName下
+- 同时python脚本将替换md的语雀文章路径到目标路径/img/categoryName/mdFileName
+- A batch script that works with a Python tool to process Markdown articles exported from Yuque.
+- Renames and stores embedded images in the path: Blog/source/img/categoryName/mdFileName.
+- Rewrites Markdown image links to use the new image path (/img/categoryName/mdFileName), making the files Hexo-compatible
